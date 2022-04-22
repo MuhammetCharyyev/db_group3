@@ -11,10 +11,10 @@ import org.junit.runner.RunWith;
                 "rerun:target/rerun.txt",
                 "me.jvt.cucumber.report.PrettyReports:target/cucumber"
         },
-        features="src/test/resources/features/Natali",
-        glue = "com/library/step_definitions/Natali",
-        dryRun = true,
-        tags =  "@US2",
+        features="src/test/resources/features/Muhammet_Charyyev",
+        glue = "com/library/step_definitions/Muhammet",
+        dryRun = false,
+        tags =  "wip",
         publish = true
 )
 public class CucesRunner {

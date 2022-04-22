@@ -509,4 +509,12 @@ public class BrowserUtils {
         }
     }
 
+    public static List<String> getAllSelectOptions(WebElement element){
+
+        Select select=new Select(element);
+
+        return getElementsText(select.getOptions());
+    }
+
+
 }
